@@ -4,7 +4,7 @@ import hero from "../Assets/hero.png"
 const Hero = () => {
   return (
     <section>
-      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-16 lg:mt-28">
         {/* Content */}
         <div class="flex flex-1 flex-col items-center lg:items-start text-center lg:text-left font-Montserrat">
           <h1 class="text-3xl md:text-4xl lg:text-5xl mb-6 text-darkGray">
@@ -19,7 +19,7 @@ const Hero = () => {
           >
             Contact Us
           </button>
-          <div class="w-2/3 h-1 bg-red mt-8 md:mt-10"></div>
+          <div class="w-2/3 h-1 bg-lightGray mt-8 md:mt-10"></div>
         </div>
         {/* Image */}
         <div class="flex flex-1  mb-6 justify-center w-2/3 h-2/3 md:w-full md:h-full">
