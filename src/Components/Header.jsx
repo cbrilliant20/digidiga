@@ -10,14 +10,14 @@ const Header = () => {
   }
 
   return (
-    <header id="#home">
+    <header id="home">
       <nav class="container flex items-center py-4 mt-12 font-Montserrat">
         <h2 class="text-red text-2xl font-semibold">
           digi<span class="text-darkGray ">diga</span>
         </h2>
         <ul class="hidden md:flex flex-1 justify-end items-center gap-6">
           <li class="cursor-pointer text-red">
-            <a href="#">About Us</a>
+            <a href="#about">About Us</a>
           </li>
           <li class="cursor-pointer text-red">
             <a href="#">Our Projects</a>
@@ -41,6 +41,11 @@ const Header = () => {
             <ul class="flex flex-col justify-center items-center sm:hidden gap-12 text-2xl text-white">
               <li class="cursor-pointer ">
                 <a href="#home" onClick={handleClick}>
+                  Home
+                </a>
+              </li>
+              <li class="cursor-pointer ">
+                <a href="#about" onClick={handleClick}>
                   About Us
                 </a>
               </li>
