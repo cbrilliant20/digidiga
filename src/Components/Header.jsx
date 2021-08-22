@@ -25,6 +25,9 @@ const Header = () => {
           <li class="cursor-pointer text-red">
             <a href="#client">Clients</a>
           </li>
+          <li class="cursor-pointer text-red">
+            <a href="#advantage">Advantages</a>
+          </li>
         </ul>
 
         {/* Mobile */}
@@ -58,6 +61,9 @@ const Header = () => {
                 <a href="#client" onClick={handleClick}>
                   Clients
                 </a>
+              </li>
+              <li class="cursor-pointer ">
+                <a href="#advantage">Advantages</a>
               </li>
             </ul>
             <FontAwesomeIcon
