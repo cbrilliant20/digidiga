@@ -7,7 +7,7 @@ import brand5 from "../Assets/brand5.png"
 import brand6 from "../Assets/brand6.png"
 import brand7 from "../Assets/brand7.png"
 import brand8 from "../Assets/brand8.png"
-
+import img1 from "../Assets/img1.png"
 const Clients = () => {
   const brands = [
     {
@@ -53,6 +53,21 @@ const Clients = () => {
               </div>
             )
           })}
+        </div>
+      </div>
+      <div className="client-bg ">
+        <div class=" container  flex flex-col justify-between items-center lg:flex-row relative gap-6">
+          <img src={img1} alt="" class="w" />
+          <div class="text-left text-white bg-red p-4 leading-10  w-full md:w-1/3 sm:mt-7 lg:mt-0">
+            <p class="text-3xl font-bold mb-6">Why choose us?</p>
+            <p class="font-thin">
+              <span class="font-semibold text-xl">Lorem</span> ipsum, dolor sit
+              amet consectetur adipisicing elit. Quasi accusamus neque
+              voluptatem. Exercitationem pariatur praesentium unde excepturi
+              laboriosam sunt maiores reiciendis autem saepe iste, velit
+              quisquam omnis amet fuga rem.
+            </p>
+          </div>
         </div>
       </div>
     </section>

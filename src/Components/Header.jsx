@@ -23,7 +23,7 @@ const Header = () => {
             <a href="#projects">Our Projects</a>
           </li>
           <li class="cursor-pointer text-red">
-            <a href="#">Clients</a>
+            <a href="#client">Clients</a>
           </li>
         </ul>
 
@@ -55,7 +55,7 @@ const Header = () => {
                 </a>
               </li>
               <li class="cursor-pointer ">
-                <a href="#" onClick={handleClick}>
+                <a href="#client" onClick={handleClick}>
                   Clients
                 </a>
               </li>

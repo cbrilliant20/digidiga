@@ -10,6 +10,8 @@ module.exports = {
         gold: "#D5963D",
         green: "#131E07",
         offWhite: "#efddd4",
+        whiteGold:
+          "linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(213,150,61,1) 50%);",
       },
     },
     container: {
