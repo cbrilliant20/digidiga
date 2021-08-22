@@ -20,7 +20,7 @@ const Header = () => {
             <a href="#about">About Us</a>
           </li>
           <li class="cursor-pointer text-red">
-            <a href="#">Our Projects</a>
+            <a href="#projects">Our Projects</a>
           </li>
           <li class="cursor-pointer text-red">
             <a href="#">Clients</a>
@@ -50,7 +50,7 @@ const Header = () => {
                 </a>
               </li>
               <li class="cursor-pointer ">
-                <a href="#" onClick={handleClick}>
+                <a href="#projects" onClick={handleClick}>
                   Our Projects
                 </a>
               </li>
