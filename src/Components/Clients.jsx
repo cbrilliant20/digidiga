@@ -55,10 +55,11 @@ const Clients = () => {
           })}
         </div>
       </div>
+      {/* Content */}
       <div className="client-bg ">
-        <div class=" container  flex flex-col justify-between items-center lg:flex-row relative gap-6">
+        <div class=" container  flex flex-col justify-between items-end lg:flex-row relative gap-6">
           <img src={img1} alt="" class="w" />
-          <div class="text-left text-white bg-red p-4 leading-10  w-full md:w-1/3 sm:mt-7 lg:mt-0">
+          <div class="text-left text-white bg-red p-4 leading-10  w-full md:w-1/3 sm:mt-7 lg:mt-0 ">
             <p class="text-3xl font-bold mb-6">Why choose us?</p>
             <p class="font-thin">
               <span class="font-semibold text-xl">Lorem</span> ipsum, dolor sit
