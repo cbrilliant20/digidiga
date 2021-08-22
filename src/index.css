@@ -22,13 +22,9 @@ html {
   padding: 1rem;
 }
 
-.alice-carousel__prev-btn,
-.alice-carousel__prev-btn-item,
-.alice-carousel__next-btn,
-.alice-carousel__next-btn-item {
-  text-align: center;
-  width: fit-content;
-  margin: 0.5rem;
+.alice-carousel__prev-btn-wrapper,
+.alice-carousel__next-btn-wrapper {
+  margin: 1rem;
 }
 
 .alice-carousel__next-btn-item,
