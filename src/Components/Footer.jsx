@@ -8,12 +8,14 @@ const Footer = () => {
           <h1 class="text-2xl md:text-3xl lg:text-4xl mb-4 text-left ">
             Contact Us
           </h1>
-          <p class=" mb-2 text-left ">
+          <p class=" mb-2 text-left font-thin">
             Are you interested in working with us or <br />
             just want to ask questions?{" "}
           </p>
-          <p class=" mb-2 text-left ">cbrilliant20@gmail.com </p>
-          <p class=" mb-8 text-left ">cameron.brilliant.netlify.app </p>
+          <p class=" mb-2 text-left font-thin ">cbrilliant20@gmail.com </p>
+          <p class=" mb-8 text-left font-thin">
+            cameron.brilliant.netlify.app{" "}
+          </p>
         </div>
         {/* Image */}
         <div class="flex flex-1  justify-center  ">
