@@ -13,7 +13,7 @@ const Header = () => {
     <header id="home">
       <nav class="container flex items-center py-4 mt-12 font-Montserrat">
         <h2 class="text-red text-2xl font-semibold">
-          digi<span class="text-darkGray ">diga</span>
+          digi<span class="text-darkGray">diga</span>
         </h2>
         <ul class="hidden md:flex flex-1 justify-end items-center gap-6">
           <li class="cursor-pointer text-red">
@@ -63,7 +63,9 @@ const Header = () => {
                 </a>
               </li>
               <li class="cursor-pointer ">
-                <a href="#advantage">Advantages</a>
+                <a href="#advantage" onClick={handleClick}>
+                  Advantages
+                </a>
               </li>
             </ul>
             <FontAwesomeIcon
