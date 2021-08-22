@@ -28,7 +28,7 @@ const Advantages = () => {
   ]
 
   return (
-    <section class="bg-green">
+    <section class="bg-green pb-60 ">
       <div class="container ">
         <h2 class="text-left py-10 text-white text-4xl leading-10 ">
           our <br />

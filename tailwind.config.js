@@ -8,7 +8,7 @@ module.exports = {
         darkGray: "#506269",
         lightGray: "#848484",
         gold: "#D5963D",
-        green: "#131E07",
+        green: "#20320D",
         offWhite: "#efddd4",
         whiteGold:
           "linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(213,150,61,1) 50%);",
