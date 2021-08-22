@@ -9,7 +9,7 @@ module.exports = {
         lightGray: "#848484",
         gold: "#D5963D",
         green: "#131E07",
-        offWhite: "efddd4",
+        offWhite: "#efddd4",
       },
     },
     container: {

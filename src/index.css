@@ -4,6 +4,47 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
+@import "react-alice-carousel/lib/alice-carousel.css";
+
 html {
   scroll-behavior: smooth;
 }
+
+/* .alice-carousel */
+.alice-carousel__stage {
+  margin: 0 auto;
+}
+
+.alice-carousel__stage-item {
+  padding: 5px;
+  /* width: 100%;
+  height: 50%; */
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn,
+.alice-carousel__next-btn-item {
+  text-align: center;
+  width: fit-content;
+  margin: 1rem 0.5rem;
+}
+
+.alice-carousel__next-btn-item,
+.alice-carousel__prev-btn-item {
+  color: #d5963d;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.alice-carousel__next-btn-item::after .alice-carousel__prev-btn-item:after {
+  color: #ffff;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.alice-carousel__dots {
+  display: none;
+}
+
+/* .alice-carousel__ */
